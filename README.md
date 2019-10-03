@@ -92,3 +92,24 @@ Run tests by typing `python test_hashtable.py`.
 1. Research and implement the DJB2 hashing algorithm.
 
 2. Update your HashTable to automatically double in size when it grows past a load factor of 0.7 and half in size when it shrinks past a load factor of 0.2. This should only occur if the HashTable has been resized past the initial size. Refactor tests to pass with your resizing HashTable.
+
+
+##Arrays
+ Arrays must have the same data types in data structures. 
+
+ Array is a container which can hold a fix number of items and these items should be of the same type. Most of the data structures make use of arrays to implement their algorithms. Following are the important terms to understand the concept of Array.
+
+ Element − Each item stored in an array is called an element.
+
+Index − Each location of an element in an array has a numerical index, which is used to identify the element.
+
+Array Representation
+Arrays can be declared in various ways in different languages. For illustration, let's take C array declaration.
+
+int array[10] = {35,33,42,10,14,19,27,44,26,31}
+
+index starts with 0
+
+Array length is 10 which means it can store 10 elements.
+
+Each element can be accessed via its index for example, we can fetch an element at index 6 as 9
